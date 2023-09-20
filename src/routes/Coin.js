@@ -20,7 +20,7 @@ function Coin() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [url]);
 
   return (
     <div>
